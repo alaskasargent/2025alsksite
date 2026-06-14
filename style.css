@@ -44,8 +44,8 @@ and then link it! Many fonts have separate files for each style
 body {
   font-family: 'UnifontExMono', sans-serif;
   margin: 0px;
-  background-color: #2F3230;
-  color: #CFCCCE;
+  background-color: #EFEFEF;
+  color: #0F0F0F;
 }
 
 * {
@@ -65,8 +65,8 @@ the other elements, you will need to move that div outside
 of the container */
 #container {
   max-width: 1200px;
-  border-left: 2px solid #CFCCCE;
-  border-right: 2px solid #CFCCCE;
+  border-left: 2px solid #0F0F0F;
+  border-right: 2px solid #0F0F0F;
   /* this is the width of your layout! */
   /* if you change the above value, scroll to the bottom
 and change the media query according to the comment! */
@@ -75,12 +75,12 @@ and change the media query according to the comment! */
 }
 
 #container a {
-  color: #2F3230;
+  color: #EFEFEF;
   font-weight: bold;
 }
 
 main a {
-  color: #2F3230;
+  color: #EFEFEF;
   font-weight: bold;
 }
 
@@ -92,7 +92,7 @@ ul {
 /* navigation section!! */
 #navbar {
   height: 40px;
-  background-color: #CFCCCE;
+  background-color: #EFEFEF;
   /* navbar color */
   width: 100%;
 }
@@ -110,7 +110,7 @@ ul {
 
 /* navigation links*/
 #navbar li a {
-  color: #2F3230;
+  color: #EFEFEF;
   /* navbar text color */
   font-weight: 800;
   text-decoration: none;
@@ -119,7 +119,7 @@ ul {
 
 /* navigation link when a link is hovered over */
 #navbar li a:hover {
-  color: #CFCCCE;
+  color: #0F0F0F;
   text-decoration: underline;
 }
 
@@ -127,7 +127,7 @@ ul {
   display: flex;
 }
 aside {
-  background-color: #CFCCCE;
+  background-color: #0F0F0F;
   width: 200px;
   padding: 20px;
 }
@@ -136,7 +136,7 @@ aside {
 /* this is the color of the main content area,
 between the sidebars! */
 main {
-  background-color: #2F3230;
+  background-color: #EFEFEF;
   flex: 1;
   padding: 10px;
   order: 2;
@@ -158,7 +158,7 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
 }
 
 footer {
-  background-color: #CFCCCE;
+  background-color: #0F0F0F;
   /* background color for footer */
   width: 100%;
   height: 40px;
@@ -168,15 +168,15 @@ footer {
 }
 
 main a {
-  color: #CFCCCE;
+  color: #0F0F0F;
 }
 
 main h1, h2, h3 {
-  color: #CFCCCE;
+  color: #0F0F0F;
 }
 
 h1, h2, h3 {
-  color: #2F3230;
+  color: #EFEFEF;
 }
 
 h1 {
@@ -190,8 +190,8 @@ strong {
 
 /* this is just a cool box, it's the darker colored one */
 .box {
-  background-color: #CFCCCE;
-  border: 1px solid #2F3230;
+  background-color: #EFEFEF;
+  border: 1px solid #0F0F0F;
   color: #2F3230;
   padding: 10px;
 }
@@ -224,7 +224,7 @@ strong {
 }
 
 .col-6 img {
-	border: solid #CFCCCE 3px;
+	border: solid #EFEFEF 3px;
 }
 
 .proj-list img {
@@ -235,7 +235,7 @@ strong {
 	object-fit: cover;
 	overflow: hidden;
 	padding: 0;
-	border: solid #CFCCCE 3px;
+	border: solid #EFEFEF 3px;
 }
 
 .proj-date {
